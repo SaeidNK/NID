@@ -1,0 +1,40 @@
+body {
+    background-color: #a5a6a1;
+}
+
+h1 {
+    color: #141403;
+}
+h2 {
+    color: #cfcc2f;
+}
+ /* Center the container */
+ body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Set height to 100% of viewport height for vertical centering */
+    margin: 0; /* Remove default margin */
+}
+
+/* Add a frame around the container */
+.container {
+    border: 2px solid #000;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 600px; /* Set max width to limit container size */
+    text-align: center; /* Center the text */
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #0e0e0e;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #99a7e3;
+}
